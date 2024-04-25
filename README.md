@@ -4,7 +4,7 @@
 
 This is a preliminary learning experience working with React Redux for the
 front-end and Java Spring for serving the REST service. This repository
-provides the React portion of the puzzle and the [Java Spring](https://github.com/ericroys-school/spring-task-restservices "Spring Project") RESTful web service providing the other piece.
+provides the React portion of the puzzle and the [Java Spring](https://github.com/ericroys-school/spring-task-restservices "Spring Project") RESTful web service provides the other piece.
 
 ## Installation
 
@@ -22,8 +22,7 @@ This should open the React app in your browser.
 
 ![alt text](/doc/images/task_screenshot.png "Tasking Screenshot")
 
-You will need to clone the Java Spring repo before things will work properly. Please
-follow the instructions in that repo's readme.
+You will need to install/run the Java Spring portion before things will work properly as the React app expects to retrieve data from the web service. Please follow the instructions in that repo's readme.
 
 ## Usage
 
