@@ -1,20 +1,36 @@
 {
-  "name": "react-redux-project",
+  "name": "react-hooks",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "proxy": "http://localhost:9001",
   "dependencies": {
+    "@babel/runtime": "^7.23.9",
+    "@redux-devtools/extension": "^3.3.0",
+    "@reduxjs/toolkit": "^2.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.1.0",
     "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0",
+    "reselect": "^5.1.0",
+    "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "mocha \"src/tests/*.test.js\" --require @babel/register",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +50,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "chai": "^4.4.1",
+    "fetch-mock": "^9.11.0",
+    "mocha": "^10.2.0",
+    "node-fetch": "^2.7.0",
+    "sinon": "^17.0.1"
   }
 }
